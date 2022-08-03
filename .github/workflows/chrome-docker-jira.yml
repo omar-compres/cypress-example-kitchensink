@@ -2,6 +2,7 @@ name: Chrome Docker
 
 on: 
   repository_dispatch:
+  types: [custom_event_type]
   schedule:
     - cron: '5 12 * * 0'
 
